@@ -1,0 +1,44 @@
+Simple Number Pattern
+
+Print the following pattern for the given number of rows.
+Pattern for N = 4
+1
+12
+123
+1234
+Input format : N (Total no. of rows)
+
+Output format : Pattern in N lines
+
+Sample Input :
+5
+Sample Output :
+1
+12
+123
+1234
+12345 
+
+
+
+
+Solution-
+
+
+
+#include<iostream>
+using namespace std;
+
+int main() {
+	// Write your code here
+  int N;
+  cin>>N;
+  
+  for(int i=1;i<=N;i++){
+    for(int j=1;j<=i;j++){
+      cout<<j;
+    }
+    cout<<endl;
+  }
+	
+}
